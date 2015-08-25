@@ -28,7 +28,7 @@ public class MainActivity extends ListActivity implements LoaderManager.LoaderCa
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         fillData();
-
+        int a = 10;
         registerForContextMenu(getListView());
 
     }
